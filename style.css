@@ -1,0 +1,75 @@
+
+body {
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid #777;
+    background-color: #424242;
+    color: white;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+header h1 {
+    margin: 20px 0 34px;
+    font-size: 2rem;
+}
+
+nav {
+    margin-bottom: 26px;
+}
+
+nav a,
+footer a {
+    color: green;
+}
+
+nav a:first-child {
+    color: white;
+    text-decoration: none;
+}
+
+.profile img,
+figure img {
+    display: block;
+    width: min(644px, 100%);
+    height: auto;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0 auto 20px;
+}
+
+section h2 {
+    margin: 20px 0;
+}
+
+section p {
+    margin: 20px 0;
+    line-height: 2;
+}
+
+footer {
+    margin-top: 24px;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    header h1 {
+        font-size: 1.65rem;
+    }
+
+    section p {
+        line-height: 1.7;
+        text-align: left;
+    }
+
+    footer {
+        text-align: center;
+        line-height: 2;
+    }
+}
